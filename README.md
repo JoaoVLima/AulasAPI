@@ -1,12 +1,12 @@
-# FilesAPI
+# AulasAPI
 
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/JoaoVLima/FilesAPI.git
+$ git clone https://github.com/JoaoVLima/AulasAPI.git
 
 # Go into the repository
-$ cd FilesAPI
+$ cd AulasAPI
 
 # Create a venv (Virtual Enviroment)
 $ python3 -m venv venv
