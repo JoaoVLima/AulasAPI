@@ -31,7 +31,7 @@ $ python3 manage.py runserver
 
 python3 manage.py compilemessages
 django-admin makemessages -a
-django-admin makemessages -l pt-BR
+django-admin makemessages -l pt_BR
 django-admin makemessages -l en
 
 ```

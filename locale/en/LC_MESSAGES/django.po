@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-06 12:04-0300\n"
+"POT-Creation-Date: 2025-10-21 15:27-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -80,11 +80,9 @@ msgstr ""
 
 #: core/views.py:29
 msgid ""
-"The FilesAPI is a backend project developed to power the FilesAPI system, "
-"which is a Business Intelligence (BI) platform. The API is the heart of the "
-"system, responsible for collecting, processing, and providing data to the "
-"frontend, enabling the generation of reports, dashboards, and strategic "
-"analyses."
+"The FilesAPI is a backend project. The API is the heart of the system, "
+"responsible for collecting, processing, and providing data to the frontend, "
+"enabling the generation of reports, dashboards, and strategic analyses."
 msgstr ""
 
 #: dashboard/services.py:19
@@ -93,4 +91,16 @@ msgstr ""
 
 #: dashboard/services.py:20
 msgid "Failed to get dashboard data"
+msgstr ""
+
+#: dashboard/services.py:27
+msgid "User does not have permission to view dashboards"
+msgstr ""
+
+#: dashboard/services.py:30
+msgid "User does not have permission to access this group's dashboard"
+msgstr ""
+
+#: dashboard/services.py:34
+msgid "No dashboard data found"
 msgstr ""

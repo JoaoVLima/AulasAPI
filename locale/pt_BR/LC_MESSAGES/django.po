@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-06 12:04-0300\n"
+"POT-Creation-Date: 2025-10-21 15:27-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -79,12 +79,17 @@ msgid "Failed to force delete instance"
 msgstr "Falha ao forçar deletação da instância"
 
 #: core/views.py:29
+#, fuzzy
+#| msgid ""
+#| "The FilesAPI is a backend project developed to power the FilesAPI system, "
+#| "which is a Business Intelligence (BI) platform. The API is the heart of "
+#| "the system, responsible for collecting, processing, and providing data to "
+#| "the frontend, enabling the generation of reports, dashboards, and "
+#| "strategic analyses."
 msgid ""
-"The FilesAPI is a backend project developed to power the FilesAPI system, "
-"which is a Business Intelligence (BI) platform. The API is the heart of the "
-"system, responsible for collecting, processing, and providing data to the "
-"frontend, enabling the generation of reports, dashboards, and strategic "
-"analyses."
+"The FilesAPI is a backend project. The API is the heart of the system, "
+"responsible for collecting, processing, and providing data to the frontend, "
+"enabling the generation of reports, dashboards, and strategic analyses."
 msgstr ""
 "O FilesAPI é um projeto de backend desenvolvido para alimentar o sistema "
 "FilesAPI, que é uma plataforma de Business Intelligence (BI). A API é o "
@@ -100,5 +105,18 @@ msgstr "Dados do dashboard recuperados com sucesso"
 msgid "Failed to get dashboard data"
 msgstr "Falha ao recuperar dados do dashboard"
 
-#~ msgid "User does not have permission to access this group's dashboard"
-#~ msgstr "Usuário não tem permissão para acessar o dashboard deste grupo"
+#: dashboard/services.py:27
+#, fuzzy
+#| msgid "User does not have permission to access this group's dashboard"
+msgid "User does not have permission to view dashboards"
+msgstr "Usuário não tem permissão para acessar o dashboard deste grupo"
+
+#: dashboard/services.py:30
+msgid "User does not have permission to access this group's dashboard"
+msgstr "Usuário não tem permissão para acessar o dashboard deste grupo"
+
+#: dashboard/services.py:34
+#, fuzzy
+#| msgid "Failed to get dashboard data"
+msgid "No dashboard data found"
+msgstr "Falha ao recuperar dados do dashboard"
