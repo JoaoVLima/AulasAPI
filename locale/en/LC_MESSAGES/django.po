@@ -1,0 +1,96 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-06 12:04-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: core/services.py:29
+msgid "Successfully retrieved instance by id"
+msgstr ""
+
+#: core/services.py:30
+msgid "Failed to get instance by id"
+msgstr ""
+
+#: core/services.py:34
+msgid "Instance not found"
+msgstr ""
+
+#: core/services.py:37
+msgid "Successfully retrieved active instances"
+msgstr ""
+
+#: core/services.py:38
+msgid "Failed to get active instances"
+msgstr ""
+
+#: core/services.py:42
+msgid "Successfully retrieved all instances"
+msgstr ""
+
+#: core/services.py:43
+msgid "Failed to get all instances"
+msgstr ""
+
+#: core/services.py:47
+msgid "Successfully created instance"
+msgstr ""
+
+#: core/services.py:48
+msgid "Failed to create instance"
+msgstr ""
+
+#: core/services.py:52
+msgid "Successfully updated instance"
+msgstr ""
+
+#: core/services.py:53
+msgid "Failed to update instance"
+msgstr ""
+
+#: core/services.py:57
+msgid "Successfully deleted instance"
+msgstr ""
+
+#: core/services.py:58
+msgid "Failed to delete instance"
+msgstr ""
+
+#: core/services.py:62
+msgid "Successfully force deleted instance"
+msgstr ""
+
+#: core/services.py:63
+msgid "Failed to force delete instance"
+msgstr ""
+
+#: core/views.py:29
+msgid ""
+"The GrandeBIAPI is a backend project developed to power the GrandeBI system, "
+"which is a Business Intelligence (BI) platform. The API is the heart of the "
+"system, responsible for collecting, processing, and providing data to the "
+"frontend, enabling the generation of reports, dashboards, and strategic "
+"analyses."
+msgstr ""
+
+#: dashboard/services.py:19
+msgid "Successfully retrieved dashboard data"
+msgstr ""
+
+#: dashboard/services.py:20
+msgid "Failed to get dashboard data"
+msgstr ""

@@ -1,0 +1,104 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-06 12:04-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: pt-BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: core/services.py:29
+msgid "Successfully retrieved instance by id"
+msgstr "Instância recuperada com sucesso pelo ID"
+
+#: core/services.py:30
+msgid "Failed to get instance by id"
+msgstr "Falha ao recuperar instância pelo ID"
+
+#: core/services.py:34
+msgid "Instance not found"
+msgstr "Instância não encontrada"
+
+#: core/services.py:37
+msgid "Successfully retrieved active instances"
+msgstr "Instâncias ativas recuperadas com sucesso"
+
+#: core/services.py:38
+msgid "Failed to get active instances"
+msgstr "Falha ao recuperar instâncias ativas"
+
+#: core/services.py:42
+msgid "Successfully retrieved all instances"
+msgstr "Todas as instâncias recuperadas com sucesso"
+
+#: core/services.py:43
+msgid "Failed to get all instances"
+msgstr "Falha ao recuperar todas as instâncias"
+
+#: core/services.py:47
+msgid "Successfully created instance"
+msgstr "Instância criada com sucesso"
+
+#: core/services.py:48
+msgid "Failed to create instance"
+msgstr "Falha ao criar instância"
+
+#: core/services.py:52
+msgid "Successfully updated instance"
+msgstr "Instância atualizada com sucesso"
+
+#: core/services.py:53
+msgid "Failed to update instance"
+msgstr "Falha ao atualizar instância"
+
+#: core/services.py:57
+msgid "Successfully deleted instance"
+msgstr "Instância deletada com sucesso"
+
+#: core/services.py:58
+msgid "Failed to delete instance"
+msgstr "Falha ao deletar instância"
+
+#: core/services.py:62
+msgid "Successfully force deleted instance"
+msgstr "Instância forçada a ser deletada com sucesso"
+
+#: core/services.py:63
+msgid "Failed to force delete instance"
+msgstr "Falha ao forçar deletação da instância"
+
+#: core/views.py:29
+msgid ""
+"The GrandeBIAPI is a backend project developed to power the GrandeBI system, "
+"which is a Business Intelligence (BI) platform. The API is the heart of the "
+"system, responsible for collecting, processing, and providing data to the "
+"frontend, enabling the generation of reports, dashboards, and strategic "
+"analyses."
+msgstr ""
+"O GrandeBIAPI é um projeto de backend desenvolvido para alimentar o sistema "
+"GrandeBI, que é uma plataforma de Business Intelligence (BI). A API é o "
+"coração do sistema, responsável por coletar, processar e disponibilizar "
+"dados para o frontend, permitindo a geração de relatórios, dashboards e "
+"análises estratégicas."
+
+#: dashboard/services.py:19
+msgid "Successfully retrieved dashboard data"
+msgstr "Dados do dashboard recuperados com sucesso"
+
+#: dashboard/services.py:20
+msgid "Failed to get dashboard data"
+msgstr "Falha ao recuperar dados do dashboard"
+
+#~ msgid "User does not have permission to access this group's dashboard"
+#~ msgstr "Usuário não tem permissão para acessar o dashboard deste grupo"

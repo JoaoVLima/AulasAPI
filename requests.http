@@ -1,0 +1,20 @@
+### GET index
+GET http://127.0.0.1:8000/
+
+###
+
+### GET dashboard
+GET http://127.0.0.1:8000/dashboard?group=2&year=2025&month=1&day=4
+
+###
+
+### POST api token
+POST http://127.0.0.1:8000/api/token/
+Content-Type: application/json
+
+{
+  "username": "daf1",
+  "password": "Daf@2025#"
+}
+
+###
