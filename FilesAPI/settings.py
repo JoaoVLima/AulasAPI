@@ -35,7 +35,6 @@ INSTALLED_APPS = [
     'core',
     'dashboard',
     'integrations',
-    'bonus',
 
     # Modules
     'rest_framework',
