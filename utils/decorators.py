@@ -26,8 +26,8 @@ from .exceptions import ResponseError
 
 class Response:
     def __init__(self,
-                 error_message: str,
-                 success_message: str = 'OK',
+                 error_message,
+                 success_message = 'OK',
                  return_keys: list = None,
                  keep_return_value: bool = False,
                  ):
