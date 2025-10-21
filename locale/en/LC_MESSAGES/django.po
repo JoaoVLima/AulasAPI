@@ -80,7 +80,7 @@ msgstr ""
 
 #: core/views.py:29
 msgid ""
-"The FilesAPI is a backend project. The API is the heart of the system, "
+"The AulasAPI is a backend project. The API is the heart of the system, "
 "responsible for collecting, processing, and providing data to the frontend, "
 "enabling the generation of reports, dashboards, and strategic analyses."
 msgstr ""
