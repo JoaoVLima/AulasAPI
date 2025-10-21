@@ -249,3 +249,5 @@ fabric.properties
 
 # Backup files
 *.bak
+
+poetry.lock
