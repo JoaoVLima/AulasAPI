@@ -1,5 +1,5 @@
 """
-ASGI config for GrandeBIAPI project.
+ASGI config for FilesAPI project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'GrandeBIAPI.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'FilesAPI.settings')
 
 application = get_asgi_application()

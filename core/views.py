@@ -25,9 +25,9 @@ class IndexView(APIView):
 
     def get(self, request):
         data = dict(
-                title="GrandeBIAPI",
-                description=_("The GrandeBIAPI is a backend project developed "
-                              "to power the GrandeBI system, which is a "
+                title="FilesAPI",
+                description=_("The FilesAPI is a backend project developed "
+                              "to power the FilesAPI system, which is a "
                               "Business Intelligence (BI) platform. "
                               "The API is the heart of the system, responsible "
                               "for collecting, processing, and providing data "

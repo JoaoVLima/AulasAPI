@@ -3,5 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="Python 3.12 (GrandeBI-API)" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.12 (GrandeBIAPI)" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.13 (FilesAPI)" project-jdk-type="Python SDK" />
 </project>

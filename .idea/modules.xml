@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/GrandeBIAPI.iml" filepath="$PROJECT_DIR$/.idea/GrandeBIAPI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/FilesAPI.iml" filepath="$PROJECT_DIR$/.idea/FilesAPI.iml" />
     </modules>
   </component>
 </project>

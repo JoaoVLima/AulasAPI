@@ -13,8 +13,8 @@ POST http://127.0.0.1:8000/api/token/
 Content-Type: application/json
 
 {
-  "username": "daf1",
-  "password": "Daf@2025#"
+  "username": "aluno1",
+  "password": "Aluno@2025#"
 }
 
 ###
