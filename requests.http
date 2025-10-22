@@ -3,11 +3,6 @@ GET http://127.0.0.1:8000/
 
 ###
 
-### GET dashboard
-GET http://127.0.0.1:8000/dashboard?group=2&year=2025&month=1&day=4
-
-###
-
 ### POST api token
 POST http://127.0.0.1:8000/api/token/
 Content-Type: application/json
@@ -16,5 +11,13 @@ Content-Type: application/json
   "username": "aluno1",
   "password": "Aluno@2025#"
 }
+
+> {% client.global.set("auth_token", response.body.access); %}
+
+###
+
+### GET dashboard
+GET http://127.0.0.1:8000/dashboard?group=1&year=2025
+Authorization: Bearer {{auth_token}}
 
 ###

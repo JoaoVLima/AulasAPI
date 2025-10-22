@@ -1,3 +1,4 @@
+from pathlib import Path
 from django.core.management.utils import get_random_secret_key
 
 secret_key = get_random_secret_key()
@@ -8,7 +9,7 @@ fp.write(f"DJANGO_DEBUG = True\n")
 fp.write(f"""DJANGO_DATABASES = {{
     'default': {{
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'NAME': '{Path(__file__).resolve().parent}/db.sqlite3',
     }}
 }}
 """)
